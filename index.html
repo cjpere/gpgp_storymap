@@ -47,36 +47,20 @@
             </section>
             <section data-scene="zones">
                 <h2>Accumulation Zones</h2>
-                <img src="img/patches.jpg" class="img-responsive" alt="responsive image" alt-text="Accumulation Zones">
                 <p>While the Great Pacific Garbage Patch is the most well there are four other accumulation zones that
                   have started to form. The Great Pacific Garbage Patch is looked in the pacific halfway between Hawaii and
                   California. The second zone is located between South Africa and Australia. The third in the South Pacific
                   South America. The fourth in the South Atlantic on the other side of Sotuh America. The fifth and final
                   zone is in the North Atlantic between North America and Europe.</p>
+                <img src="img/patches.jpg" class="img-responsive" alt="responsive image" alt-text="Accumulation Zones">
 
             </section>
 
-            <section data-scene="corvallis">
-                <h2>Corvallis</h2>
-                <p>Corvallis is a city in central western Oregon, United States. It is the county seat of Benton County
-                    and the principal city of the Corvallis, Oregon Metropolitan Statistical Area, which encompasses all
-                    of Benton County. As of the 2010 United States Census, the population was 54,462. Its population was
-                    estimated by the Portland Research Center to be 55,298 in 2013.Corvallis is the location of Oregon
-                    State University, a large Hewlett-Packard research campus, and Good Samaritan Regional Medical
-                    Center.</p>
-                <p>In October 1845, Joseph C. Avery arrived in Oregon from the east. Avery took out a land claim at the
-                    mouth of Marys River where it flows into the Willamette River and in June 1846 took up residence
-                    there in a log cabin hastily constructed to hold what seemed a potentially lucrative claim. Avery's
-                    primitive 1846 dwelling was the first home within the boundaries of today's Corvallis and his land
-                    claim included the southern section of the contemporary city.</p>
-                <p>Corvallis is the largest principal city of the Albany-Corvallis-Lebanon CSA, a Combined Statistical
-                    Area that includes the Corvallis metropolitan area (Benton County) and the Albany-Lebanon
-                    micropolitan area (Linn County),which had a combined population of 202,251 at the 2010 U.S. Census.
-                    As of the 2000 U.S. Census the median income for a household in the city was $35,437, and the median
-                    income for a family was $53,208. Males had a median income of $40,770 versus $29,390 for females.
-                    The per capita income for the city was $19,317. About 9.7% of families and 20.6% of the population
-                    were below the poverty line, including 15.2% of those under age 18 and 6.0% of those age 65 or
-                    over.</p>
+            <section data-scene="statistics">
+                <h2>Statistics</h2>
+                <p>"It is estimated that 1.15 to 2.41 million tonnes of plastic are entering the ocean each year from rivers."
+                    The estimated size of the area is 1.6 million square kilometers which is two times the size of Texas or
+                    three times the size of France.</p>
             </section>
 
             <section data-scene="eugene">
@@ -134,23 +118,11 @@
                     ranked Bend as one of The 10 Best Places to Live Now.</p>
             </section>
 
-            <section data-scene="oregon">
-                <h2>Oregon</h2>
-                <p>Oregon was inhabited by many indigenous tribes before Western traders, explorers, and settlers
-                    arrived. An autonomous government was formed in the Oregon Country in 1843 before the Oregon
-                    Territory was created in 1848. Oregon became the 33rd state on February 14, 1859. Today, at 98,000
-                    square miles (255,000 km²), Oregon is the ninth largest and, with a population of 4 million, 27th
-                    most populous U.S. state. The capital of Oregon is Salem, the second most populous of its cities,
-                    with 164,549 residents. Portland is Oregon's most populous city, with 632,309 residents, and ranks
-                    as the 26th most populous city in the United States. Portland's metro population of 2,389,228 ranks
-                    the 23rd largest metro in the nation. The Willamette Valley in western Oregon is the state's most
-                    densely populated area, home to eight of the ten most populous cities.</p>
-                <img src="../../img/oregon_flag.png" class="img-responsive img-thumbnail" alt="responsive image"
-                     alt-text="the flag of oregon">
-                <p>Oregon's landscape is diverse, with a windswept Pacific coastline; a volcano-studded Cascade Range;
-                    abundant bodies of water in and west of the Cascades; dense evergreen, mixed, and deciduous forests
-                    at lower elevations; and a high desert sprawling across much of its east all the way to the Great
-                    Basin.</p>
+            <section data-scene="action">
+                <h2>Action</h2>
+                <p>In order to make a difference when it comes to something like this we all have to change what we do.
+                  There are groups like the Ocean Cleanup that have taken action to remove the plastics from the ocean
+                  but we as indivudals need to make a conscious choice to stop using single use plastics.</p>
             </section>
 
             <section data-scene="end" data-background="assets/end.jpg">
@@ -229,12 +201,12 @@
 
         var scenes = {
             overview: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'Cover Page', layers: []},
-            zones: {lat: 38, lng: -145, zoom: 11, name: 'zones', layers: []},
-            corvallis: {lat: 44.5701158, lng: -123.2949388, zoom: 14, name: 'Corvallis', layers: [layers.ESRI]},
+            zones: {lat: 38, lng: -145, zoom: 11, name: 'Zones', layers: []},
+            statistics: {lat: 44.5701158, lng: -123.2949388, zoom: 14, name: 'Statistisc', layers: [},
             eugene: {lat: 44.0549563, lng: -123.0958048, zoom: 13, name: 'Eugene', layers: []},
             salem: {lat: 44.9419055, lng: -123.0356407, zoom: 13, name: 'Salem', layers: []},
-            bend: {lat: 44.0519385, lng: -121.3042125, zoom: 14, name: 'Bend', layers: [layers.counties, layers.satellite]},
-            oregon: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'Oregon State', layers: [layers.GEE]},
+            bend: {lat: 44.0519385, lng: -121.3042125, zoom: 14, name: 'Bend', layers: []},
+            action: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'Action', layers: []},
             end: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'The End'}
         };
 
