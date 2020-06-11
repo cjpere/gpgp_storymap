@@ -123,7 +123,7 @@
             <section data-scene="end" data-background="img/japanend.jpeg">
                 <div class="fullscreen text-center">
                     <h1 class="display-4 d-flex justify-content-center">Thank you!</h1>
-                    <small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">Visit Japan's official tourism site <a href="https://www.japan.travel/en/" target="_blank">here</a>.</small>
+                    <small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">Learn more about the GPGP <a href="" target="_blank"> here</a>.</small>
                 </div>
             </section>
 
@@ -184,9 +184,6 @@
       },
       garbage_marker: {layer: L.marker([35, -145])},
       la_marker: {layer: L.marker([34.0522, -118.2437])},
-      hachi_mark: {layer: L.marker([35.659060, 139.700631]).bindPopup('<center><b>Hachiko Statue, Shibuya Exit</b><img src= "img/hachi.jpg" width="300"><br>1-2 Dogenzaka, Shibuya City, Tokyo 150-0043<br><br>This bronze statue (located right at Shibuya Station&#39;s Hachiko Exit) is not the only relic of the dog, but it is the most famous one. The exit had been renamed after the famous pet, in his memory and as a relic of his undying love. Many visitors—both domestic and abroad—come to pay respects to the statue, especially on the day of his death, March 8th.', {maxWidth: "350"})},
-      hachi2_mark: {layer: L.marker([35.716470,139.758844]).bindPopup('<center><b>Hidesaburo Ueno and Hachiko Statue</b><img src= "img/hachi2.jpeg" width="300"><br>1 Chome-1 Yayoi, Bunkyo City, Tokyo 113-0032<br><br>In 2015, the University of Tokyo revealed a statue in honor of its former employee and his famous dog. 2015 was the 80th anniversary of Hachi&#39;s passing. 80 years seems like a random amount of time, but the number 80 is pronounced "hachi-juu" in Japanese, so it was a special year for Hachi. The statue shows professor Ueno and Hachi happily reunited. The campus is open to visitors and the statue is located right beside the entrance. There are even spotlights illuminating it at night.', {maxWidth: "350"})},
-      hachi3_mark: {layer: L.marker([35.667034, 139.721913]).bindPopup('<center><b>Aoyama Cemetary</b><img src= "img/aoyama.jpg" width="300"><br>2 Chome-32-2 Minamiaoyama, Minato City, Tokyo 107-0062<br><br>It is very uncommon for animals to be buried alongside humans in Japan. However for this special case, it only seemed fitting to reunite the two in the afterlife. After his passing, Hachi was cremated and laid to rest alongside his owner. Many people will bring offerings of snacks and leave them at the gravesite.', {maxWidth:"350"})},
       sPacific_marker: {layer: L.marker([-40, -150])},
       nAtlantic_marker: {layer: L.marker([30, -40])},
       sAtlantic_marker: {layer: L.marker([-45, -31])},
@@ -199,9 +196,9 @@
         background: {lat: 34.0522, lng: -118.2437, zoom: 8, name: 'background', layers: [layers.la_marker]},
         statistics: {lat: 38, lng: -145, zoom: 3, name: 'statistics', layers: [layers.garbage_marker]},
         zones: {lat: 35, lng: -145, zoom: 2, name: 'zones', layers: [layers.garbage_marker,layers.sPacific_marker,layers.nAtlantic_marker,layers.sAtlantic_marker,layers.indianOcean_marker]},
-        care: {lat: 35.756953, lng: 139.710924, zoom: 11, name: 'care', layers: [layers.hachi_mark,layers.hachi2_mark,layers.hachi3_mark]},
+        care: {lat: 35, lng: -145, zoom: 2, name: 'care', layers: []},
         theoceancleanup: {lat: 52.1326, lng: 5.2913, zoom: 5, name: 'theoceancleanup', layers: [layers.netherlands_marker]},
-        end: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'The End'}
+        end: {lat: 35, lng: -145, zoom: 4, name: 'The End'}
     };
 
 
